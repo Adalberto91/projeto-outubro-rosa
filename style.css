@@ -1,0 +1,80 @@
+/* 
+Arquivo: style.css
+Tema: Outubro Rosa
+Este arquivo controla o design da Landing Page
+Os alunos podem editar cores, fontes e tamanhos aqui
+*/
+
+/* Estilo geral da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff0f6; /* fundo rosado claro */
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #e91e63; /* rosa vibrante */
+    padding: 20px;
+}
+
+h1 {
+    color: #fff;
+    margin: 0;
+}
+
+header p {
+    color: #ffe6f0;
+    font-weight: 500;
+    margin-top: 5px;
+}
+
+/* Banner */
+.banner {
+    margin: 30px auto;
+    max-width: 600px;
+}
+
+.banner img {
+    width: 100%;
+    border: 3px solid #f8bbd0; /* borda rosa suave */
+    border-radius: 10px;
+}
+
+/* Texto explicativo */
+.texto {
+    margin: 20px;
+    font-size: 18px;
+    color: #444;
+    line-height: 1.6;
+}
+
+/* Botão do formulário */
+.formulario {
+    margin: 30px;
+}
+
+.formulario a {
+    background-color: #f06292; /* rosa médio */
+    color: #fff;
+    padding: 12px 24px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 10px;
+    transition: background-color 0.3s;
+}
+
+.formulario a:hover {
+    background-color: #ec407a; /* rosa mais escuro ao passar o mouse */
+}
+
+/* Rodapé */
+footer {
+    background-color: #ad1457; /* rosa escuro */
+    color: white;
+    padding: 10px;
+    margin-top: 40px;
+    font-size: 14px;
+}
